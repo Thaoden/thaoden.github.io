@@ -19,8 +19,8 @@ As I want to host the code on GitHub, I think it's natural to use GitHub Pages w
 
 The "Hello World" opening came from the Getting Started section of GitHub Pages (Who would have guessed). The first thing I noticed after setting up the theme was that it wasn't rendered. I made sure I had a `_config.yaml` page in the folder structure, but it still wasn't picking up the layout.
 
-After googling a bit, I found the same question in the [Github Community Forum] (https://github.community/t5/GitHub-Pages/Page-not-showing-the-theme/m-p/5545/highlight/true#M393) as it turns out, one has to remove all html tags but the body, so that the Jekyll configuration can kick in. Don't forget the trailing `</html>` tag!
+After googling a bit, I found the same question in the [Github Community Forum](https://github.community/t5/GitHub-Pages/Page-not-showing-the-theme/m-p/5545/highlight/true#M393) as it turns out, one has to remove all html tags but the body, so that the Jekyll configuration can kick in. Don't forget the trailing `</html>` tag!
 
 Next thing to do will be to set up a local install of Jekyll so that I can check the appearance of a new post before making it publicly available. Also, I need some layout for date and time (and maybe for comments).
 
-So that's it for the introductory post. If you have some feedback, I'd be happy to hear it (though I still have to figure out how you can send it to me - I guess for now, file an issue on [GitHub] (https://github.com/Thaoden/thaoden.github.io) ).
+So that's it for the introductory post. If you have some feedback, I'd be happy to hear it (though I still have to figure out how you can send it to me - I guess for now, file an issue on [GitHub](https://github.com/Thaoden/thaoden.github.io) ).
