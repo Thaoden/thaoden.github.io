@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Hello World!"
+date: 2019-02-24
 ---
 <body>
     <h1>Hello World</h1>
